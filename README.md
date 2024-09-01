@@ -28,9 +28,9 @@ Bu proje, sosyal etkileşimlerde karar vermek için matematiksel bir model geli�
 
 Formül şu şekildedir:
 
-\[
-M = (P_{kabul} \times ((P_{beklenti} \times Beklenti\_karşılanması) + (P_{hayal\_kırıklığı} \times Hayal\_kırıklığı) + (P_{daha\_güzel} \times Yeni\_heyecan) + (1 - P_{daha\_güzel}) \times Mevcut\_durum)) + (P_{red} \times Üzüntü) + (P_{pişman} \times Pişmanlık) + (P_{rahat} \times Nötr)
-\]
+$$
+M = (P_{kabul} \times \left[ (P_{beklenti} \times Beklenti\_karşılanması) + (P_{hayal\_kırıklığı} \times Hayal\_kırıklığı) + (P_{daha\_güzel} \times Yeni\_heyecan) + (1 - P_{daha\_güzel}) \times Mevcut\_durum \right]) + (P_{red} \times Üzüntü) + (P_{pişman} \times Pişmanlık) + (P_{rahat} \times Nötr)
+$$
 
 ### Değişkenlerin Tanımları:
 
