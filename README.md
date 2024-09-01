@@ -26,11 +26,20 @@ Bu proje, sosyal etkileşimlerde karar vermek için matematiksel bir model geli�
 
 ## Matematiksel Model
 
-Formül şu şekildedir:
+
+
+## İtiraf Durağı
+
+$M_{\text{itiraf}} = \left(P_{\text{kabul}} \times \left[ (P_{\text{beklenti}} \times \text{Beklenti karşılanması}) + (P_{\text{hayal kırıklığı}} \times \text{Hayal kırıklığı}) + (P_{\text{daha güzel}} \times \text{Yeni heyecan}) + (1 - P_{\text{daha güzel}}) \times \text{Mevcut durum} \right]\right) + (P_{\text{red}} \times \text{Üzüntü})$
+
+
+## Pişmanlık Durağı
 
 $$
-M = (P_{kabul} \times \left[ (P_{beklenti} \times Beklenti\_karşılanması) + (P_{hayal\_kırıklığı} \times Hayal\_kırıklığı) + (P_{daha\_güzel} \times Yeni\_heyecan) + (1 - P_{daha\_güzel}) \times Mevcut\_durum \right]) + (P_{red} \times Üzüntü) + (P_{pişman} \times Pişmanlık) + (P_{rahat} \times Nötr)
+M_{\text{pişmanlık}} = (P_{\text{pişman}} \times Pişmanlık) + (P_{\text{rahat}} \times Nötr)
 $$
+
+
 
 ### Değişkenlerin Tanımları:
 
