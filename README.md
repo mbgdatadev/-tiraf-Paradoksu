@@ -1,4 +1,4 @@
-# İtiraf Pradoksu
+# İtiraf Paradoksu
 
 Bu proje, sosyal etkileşimlerde karar vermek için matematiksel bir model geliştirmeyi amaçlamaktadır. Model, itiraf etme veya etmeme kararının çeşitli olasılıklarını ve sonuçlarını matematiksel olarak analiz eder.
 
